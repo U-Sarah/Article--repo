@@ -8,6 +8,7 @@ body {
   align-items: center;
   box-sizing: border-box;
   border-radius: 15px;
+  width: 75%;
 }
 .second-container {
   background-color: white;
@@ -51,23 +52,23 @@ body {
   padding: 10px;
   border-radius: 50%;
 }
-.toggle{
-    background-color: hsl(217, 19%, 35%);
-    display: flex;
-    gap: 10px;
-    border-radius: 10px;
-    align-items: center;
-    padding: 5px;
-    width: 180px;
-    height: 40px;
+.toggle {
+  background-color: hsl(217, 19%, 35%);
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 5px;
+  width: 180px;
+  height: 40px;
 }
-.toggle img{
-    height: 20px;
+.toggle img {
+  height: 20px;
 }
-.bar{
+.bar {
   display: none;
 }
-.bar.show{
+.bar.show {
   display: flex;
 }
 
@@ -101,10 +102,10 @@ body {
   .icon {
     margin-left: 0;
   }
-  .text p{
+  .text p {
     margin-left: -110px;
   }
-  .icon{
+  .icon {
     margin-right: 30px;
   }
 }
